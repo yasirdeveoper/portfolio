@@ -1,0 +1,30 @@
+
+.text {
+    color: #20c997;
+}
+.nav-item {
+    justify-content: center;
+}
+.div-div {
+    justify-content: center;
+}
+.hoverinfo {
+    color: rgba(0, 0, 0, 0.295);
+    transition: all .1s ease-in;
+}
+.hoverinfo:hover {
+    color: #20c997;
+}
+.image {
+    border-radius:100% ;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 82%;
+    padding-left: 25%;
+    
+}
+.first {
+    background-color: #20c997;
+}
+ 
+ 
