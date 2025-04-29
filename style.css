@@ -5,9 +5,7 @@
 .nav-item {
     justify-content: center;
 }
-.div-div {
-    justify-content: center;
-}
+
 .hoverinfo {
     color: rgba(0, 0, 0, 0.295);
     transition: all .1s ease-in;
@@ -19,12 +17,34 @@
     border-radius:100% ;
     overflow-x: hidden;
     overflow-y: hidden;
-    width: 82%;
+    width: 100%;
     padding-left: 25%;
-    
 }
 .first {
     background-color: #20c997;
+    min-height: 100vh;
 }
- 
- 
+.kate {
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    background: transparent;
+} 
+ .heading {
+    padding-left: -20px;
+ }
+ .button {
+    
+    border: 1px soild white !important; 
+    color: white;
+ }
+ .button:hover {
+    color: #343a40;
+ }
+ .bat {
+    color: #20c997;
+    border: 1px solid #20c997;
+ }
+ .bat:hover {
+    color: white;
+    background-color: #20c997;
+ }
